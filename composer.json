@@ -1,0 +1,34 @@
+{
+    "name": "dominicwatts/newproduct",
+    "description": "Magento 2 New Products Page with layered navigation and widget for use in layout, blocks and cms pages",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "php": "~7.0.0||~7.1.0||~7.2.0||~7.3.0",
+        "magento/module-layered-navigation": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xigen\\NewProduct\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
