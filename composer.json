@@ -3,7 +3,7 @@
     "description": "Magento 2 New Products Page with layered navigation and widget for use in layout, blocks and cms pages",
     "type": "magento2-module",
     "license": "proprietary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Dominic Xigen",
